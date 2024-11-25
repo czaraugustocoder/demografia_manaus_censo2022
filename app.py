@@ -87,7 +87,7 @@ grouped = resultado.groupby("NM_BAIRRO").agg({
 
 col1, col2 = st.columns([2, 1])
 with col1:
-    st.write("MAPA CLOROPLÉTICO")
+    st.write("MAPA COROPLÉTICO")
     st_data = st_folium(m, width=800, height=500)
 
 with col2:
